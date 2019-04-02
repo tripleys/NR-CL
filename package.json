@@ -1,0 +1,25 @@
+{
+  "name": "nodeclient",
+  "version": "1.0.0",
+  "description": "RuneScape Private Server Clientless",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "compile": "tsc -p .",
+    "build": "npm run clean && npm run compile"
+  },
+  "author": "bert",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.40",
+    "crypto": "^1.0.1",
+    "gulp": "^3.9.1",
+    "socks": "^2.3.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.2.1"
+  }
+}
